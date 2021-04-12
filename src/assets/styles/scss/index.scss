@@ -1,0 +1,17 @@
+@import './common/base.scss';
+@import './common/layout.scss';
+
+.align-self-start{
+  align-self: start;
+}
+
+div.table-label-required::before{
+  content: "* ";
+  color: #ff1818;
+}
+
+// 富文本弹窗层级问题
+.tox-silver-sink{
+  z-index: 13001 !important;
+}
+
